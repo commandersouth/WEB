@@ -76,6 +76,13 @@ header {
   display: grid;
   grid-template-columns: repeat(6,1fr);
 }
+.news-grid{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.story-txt{
+ grid-column: 2/6;
+}
 .news-head{
   grid-column: 2/4;
   grid-row:1/2;
